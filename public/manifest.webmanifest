@@ -1,0 +1,12 @@
+{
+  "name": "Koydo — CAT Prep",
+  "short_name": "CAT",
+  "description": "MBA admissions prep powered by Koydo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0D9488",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

@@ -1,0 +1,10 @@
+Prepare for the CAT exam with Koydo. Practice questions covering VARC, DILR, and Quantitative Ability — including both MCQ and TITA formats. Track your progress with detailed analytics and full-length section-timed mock tests.
+
+Features:
+• MCQ and TITA questions across all CAT sections
+• Section-timed mock tests simulating the real exam
+• Detailed performance analytics and progress tracking
+• Section-wise practice for targeted improvement
+• Free tier with 10 questions/day, Premium for unlimited access
+
+CAT is a registered trademark of the IIMs. This app is an independent study tool.
