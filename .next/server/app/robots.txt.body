@@ -1,7 +1,0 @@
-User-Agent: *
-Allow: /
-Disallow: /api/
-Disallow: /account/
-
-Host: https://cat.koydo.app
-Sitemap: https://cat.koydo.app/sitemap.xml

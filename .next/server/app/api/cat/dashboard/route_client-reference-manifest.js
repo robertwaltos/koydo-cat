@@ -1,1 +1,0 @@
-globalThis.__RSC_MANIFEST=(globalThis.__RSC_MANIFEST||{});globalThis.__RSC_MANIFEST["/api/cat/dashboard/route"]={"moduleLoading":{"prefix":"/_next/"},"ssrModuleMapping":{},"edgeSSRModuleMapping":{},"clientModules":{},"entryCSSFiles":{"D:\\Koydo\\cat\\src\\app\\api\\cat\\dashboard\\route":[]},"rscModuleMapping":{},"edgeRscModuleMapping":{}};

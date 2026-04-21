@@ -1,7 +1,10 @@
 export default function Loading() {
   return (
-    <main className="min-h-screen flex items-center justify-center">
-      <div className="h-8 w-8 animate-spin rounded-full border-4 border-[var(--accent)] border-t-transparent" />
-    </main>
+    <div className="flex min-h-screen items-center justify-center">
+      <div className="flex flex-col items-center gap-3">
+        <div className="h-8 w-8 animate-spin rounded-full border-[3px] border-[var(--card-border)] border-t-[var(--accent)]" />
+        <p className="text-sm text-[var(--muted)]">Loading…</p>
+      </div>
+    </div>
   );
 }
