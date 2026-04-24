@@ -6,6 +6,12 @@ export interface SupabaseSessionResult {
   user: import("@supabase/supabase-js").User | null;
 }
 
+type CookieToSet = {
+  name: string;
+  value: string;
+  options?: Parameters<NextResponse["cookies"]["set"]>[2];
+};
+
 export async function updateSupabaseSession(
   request: NextRequest,
 ): Promise<SupabaseSessionResult> {
@@ -20,12 +26,12 @@ export async function updateSupabaseSession(
       getAll() {
         return request.cookies.getAll();
       },
-      setAll(cookiesToSet) {
+      setAll(cookiesToSet: CookieToSet[]) {
         cookiesToSet.forEach(({ name, value }) => request.cookies.set(name, value));
         response = NextResponse.next({ request: { headers: request.headers } });
         cookiesToSet.forEach(({ name, value, options }) =>
           response.cookies.set(name, value, {
-            ...options,
+            ...(options ?? {}),
             domain: process.env.NODE_ENV === "production" ? ".koydo.app" : undefined,
           }),
         );
